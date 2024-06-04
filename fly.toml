@@ -1,16 +1,15 @@
-# fly.toml app configuration file generated for anyue-fly-test7654 on 2024-06-04T16:56:49+02:00
+# fly.toml app configuration file generated for note-1234 on 2024-06-04T18:04:15+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'anyue-fly-test7654'
+app = 'note-1234'
 primary_region = 'cdg'
 
 [build]
-  image = 'flyio/hellofly:latest'
 
 [env]
-  PORT = '3000'
+  PORT = "3000"
 
 [http_service]
   internal_port = 3000
